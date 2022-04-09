@@ -1,0 +1,81 @@
+body {
+    background-color: whitesmoke;
+}
+
+.panel {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gesipan {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    /* height: 600px; */
+    padding: 30px;
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.btn_location {
+    /* background-color: aliceblue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    height: 40px;
+    width: 70px;
+    background-color: yellowgreen;
+    color: black;
+}
+
+#my_text {
+    height: 100px;
+}
+
+#my_id {
+    width: 200px;
+}
+
+.list {
+    border: 10px solid blanchedalmond;;
+    margin-top: 0px;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.nav {
+    margin: -30px 0px 50px 0px;
+}
+
+nav > .btn:nth-child(1){
+    background-color: blueviolet;
+}
+nav > .btn:nth-child(2){
+    background-color: cornflowerblue;
+}
+nav > .btn:nth-child(3){
+    background-color: chocolate;
+}
+nav > .btn:nth-child(4){
+    background-color: darkolivegreen;
+}
+nav > .btn:nth-child(5){
+    background-color: darkmagenta;
+}
+nav > .btn:nth-child(6){
+    background-color: tomato;
+}
+nav > .btn:nth-child(7){
+    background-color: darkkhaki;
+}
