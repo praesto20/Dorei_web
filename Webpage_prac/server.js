@@ -25,8 +25,7 @@ app.get('/load', (req, res) => {
 })
 
 // del
-
-app.get('/del', (req, res) => {
+app.get('/del', function(req, res){
     fs.writeFile('post.json', "[]", 'utf-8', (err) => { 
         let R = err ? err : "delete succeeded.";
         console.log(R);
